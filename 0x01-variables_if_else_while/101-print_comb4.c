@@ -19,28 +19,36 @@
 int main(void)
 {
 	int c;
-	int d = 0;
+	int d;
+	int e = 0;
 
-	while (d < 10)
+	while (e < 10)
 	{
-		c = 0;
-		while (c < 10)
+		d = 0;
+		while (d < 10)
 		{
-			if (d != c && d < c)
+			c = 0;
+			while (c < 10)
 			{
-				putchar('0' + d);
-				putchar('0' + c);
-
-				if (c + d != 17)
+				if (c != d && d != e && e < d && d < c)
 				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
+					putchar('0' + e);
+					putchar('0' + d);
+					putchar('0' + c);
 
-			c++;
+					if (c + d + e != 9 + 8 + 7)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+
+				c++;
+			}
+			d++;
 		}
-		d++;
+		e++;
 	}
 	putchar('\n');
 	return (0);
+}
