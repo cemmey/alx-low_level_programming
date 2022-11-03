@@ -1,26 +1,3 @@
-3-add_nodeint_end.c
-Who has access
-O
-System properties
-Type
-C
-Size
-580 bytes
-Storage used
-580 bytes
-Location
-0x13-more_singly_linked_lists
-Owner
-Ojo Samuel
-Modified
-Oct 23, 2022 by Ojo Samuel
-Opened
-1:19 AM by me
-Created
-Oct 24, 2022
-No description
-Viewers can download
-
 #include "lists.h"
 
 /**
