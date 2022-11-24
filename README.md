@@ -15,6 +15,6 @@ __General Project Objectives__
 - Don’t forget to push your header file
 - All your header files should be include guarded
 
-You will like those projects!
+The project is worth working on
 
 ---
